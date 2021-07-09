@@ -1,0 +1,79 @@
+Dependencies for Project 'GPS_Project', Target 'STM32F103_GPS': (DO NOT MODIFY !)
+F (.\main.c)(0x60E8755F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (main.h)(0x60DC9EED)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\RTE_Components.h)(0x60DB3B7F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\core_cm3.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_version.h)(0x5B97376C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+I (COMM_UART.h)(0x60DB3CE9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (GPS_UART.h)(0x60DDF641)
+I (BSP.h)(0x60DB403A)
+I (application.h)(0x60E3B3DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+F (.\COMM_UART.c)(0x60DB3CE9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\comm_uart.o --omf_browse .\comm_uart.crf --depend .\comm_uart.d)
+I (COMM_UART.h)(0x60DB3CE9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\RTE_Components.h)(0x60DB3B7F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\core_cm3.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_version.h)(0x5B97376C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\GPS_UART.c)(0x60E875E0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\gps_uart.o --omf_browse .\gps_uart.crf --depend .\gps_uart.d)
+I (GPS_UART.h)(0x60DDF641)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\RTE_Components.h)(0x60DB3B7F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\core_cm3.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_version.h)(0x5B97376C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (BSP.h)(0x60DB403A)
+I (COMM_UART.h)(0x60DB3CE9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+F (.\BSP.c)(0x60E8755F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\bsp.o --omf_browse .\bsp.crf --depend .\bsp.d)
+I (BSP.h)(0x60DB403A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\RTE_Components.h)(0x60DB3B7F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\core_cm3.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_version.h)(0x5B97376C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+F (.\application.c)(0x60E8755F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\application.o --omf_browse .\application.crf --depend .\application.d)
+I (application.h)(0x60E3B3DC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\RTE_Components.h)(0x60DB3B7F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\core_cm3.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_version.h)(0x5B97376C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+I (GPS_UART.h)(0x60DDF641)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (BSP.h)(0x60DB403A)
+I (COMM_UART.h)(0x60DB3CE9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB4EA0)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x592802CE)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58255B94)(--cpu Cortex-M3 -g --apcs=interwork -I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58255B94)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE-I F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (F:\Code_Experiments\Stm32F103C8_Bluepill\GPS-Project\RTE\RTE_Components.h)(0x60DB3B7F)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\core_cm3.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_version.h)(0x5B97376C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F70FC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)

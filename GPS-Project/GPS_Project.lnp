@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\main.o"
+".\comm_uart.o"
+".\gps_uart.o"
+".\bsp.o"
+".\application.o"
+".\startup_stm32f10x_md.o"
+".\system_stm32f10x.o"
+--strict --scatter ".\GPS_Project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\GPS_Project.map" -o .\GPS_Project.axf
