@@ -17,5 +17,19 @@ UART1-RX -> PA10</br>
 UART_Baud Rate -> 115200</br>
 System Clock -> Default Clock setting of STM32F103C8</br>
 
+UART1 -> Communication to PC for debugging via TTL 
+
+
+| UART 1        | STM32 Pins    |    TTL     |
+| ------------- |:-------------:| ---------- |
+| UART TX       | Pin A9        |     RX     |
+| UART RX       | Pin A10       |     TX     |
+
+UART2 -> Communication with uBlox Neo-6M GPS Module
+
+| UART 2        | STM32 Pins    |   ESP-01 Pins   |
+| ------------- |:-------------:| ----------      |
+| UART TX       | Pin A2        |   Pin 7 (RX)    |
+| UART RX       | Pin A3        |   Pin 2 (TX)    |
 -------------------------------------------------------------------
 This program is written in KEil µVision5.17.00 IDE
