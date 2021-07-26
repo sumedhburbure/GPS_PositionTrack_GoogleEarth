@@ -12,8 +12,6 @@ You can read more about the concept of Ring Buffer [here](https://en.wikipedia.o
 
 -------------------------------------------------------------------
 UART Specifications :</br>
-UART1_TX -> PA9</br>
-UART1-RX -> PA10</br>
 UART_Baud Rate -> 115200</br>
 System Clock -> Default Clock setting of STM32F103C8</br>
 
